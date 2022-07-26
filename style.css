@@ -138,7 +138,7 @@ nav a {
 }
 .part2{
     padding: 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 .last {
     margin-left:5px ;
@@ -149,6 +149,9 @@ nav a {
 
 .color-1{
     color: #8a2be2;
+}
+.color2{
+    color: rgb(215, 0, 50);
 }
     
 
@@ -319,4 +322,11 @@ margin-left: 20px;
     grid-area: d;
     margin: 2px;
 }
+.card-box {
+    width:100%;
+    display: flex;
+}
+.image{
+    border-radius:  10px;
+    box-shadow: 2px 5px #eeeeee; }
 
